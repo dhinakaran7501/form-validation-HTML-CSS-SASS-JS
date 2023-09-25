@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section id="form-section">
+    <form id="form">
+      <div class="heading">
+        <h2>Registration Form</h2>
+      </div>
+      <div class="form-control">
+        <label for="username">User Name</label> <br />
+        <input type="text" name="username" id="username" data-name="User Name" placeholder="Enter Your Username"
+          autofocus>
+        <h5>Error Message<h5>
+      </div>
+      <div class="form-control">
+        <label for="email">Email Address</label> <br />
+        <input type="email" name="email" id="email" data-name="Email Id" placeholder="Enter Your Email Id">
+        <h5>Error Message<h5>
+      </div>
+      <div class="form-control">
+        <label for="password">Password</label> <br />
+        <input type="password" name="password" id="password" value="" data-name="Password"
+          placeholder="Enter Your Password">
+        <h5>Error Message<h5>
+      </div>
+      <div class="form-control">
+        <label for="confirmPassword">Confirm Password</label> <br />
+        <input type="password" name="confirmPassword" id="confirmPassword" data-name="Confirm Password" value=""
+          placeholder="Enter Your Confirm Password">
+        <h5>Error Message<h5>
+      </div>
+      <div id="btn-section">
+        <div class="submitbtn">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+        <div class="resetbtn">
+          <button type="reset" id="reset">Reset</button>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
